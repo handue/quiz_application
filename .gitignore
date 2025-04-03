@@ -41,3 +41,66 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# 빌드 및 캐시 디렉토리
+.dart_tool/
+.pub/
+build/
+.pub-cache/
+
+# IDE 관련
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# 플랫폼별 디렉토리 (Android는 Java 파일이 있으므로 제외하지 않음)
+/ios/
+/linux/
+/macos/
+/windows/
+/web/
+
+# 자동 생성 파일
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Flutter 관련
+.flutter-plugins
+.flutter-plugins-dependencies
+**/ios/Flutter/.last_build_id
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# 로그 및 임시 파일
+*.log
+*.tmp
+*.temp
+.temp/
+
+# 심볼 및 맵 파일
+app.*.symbols
+app.*.map.json
+
+# Android 빌드 파일
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# 코드 커버리지
+coverage/
